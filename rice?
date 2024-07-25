@@ -1,0 +1,23 @@
+ def make_rice():
+    while True:
+        try:
+            cup_rice = input("How many cups of rice do you have? ")
+            cup_rice = float(cup_rice)
+            if cup_rice.is_integer():
+                cup_rice = int(cup_rice)
+            break
+        except ValueError:
+            print("Use only numbers for cups!")
+    cup_water = cup_rice * 2
+    print(f"You'll need {cup_water} cups of water for those {cup_rice} cups of rice, make egg fried rice tomorrow!")
+make_rice()
+
+Pro tip: 
+#Slightly toast your rice to prevent aglutinant components to glue your rice (this is based on preferences)
+#Add your liquid (season to taste and dietary needs), MUST BE HOT to reduce even more the amount of aglutinants naturally present in rice
+#On HIGH HEAT, bring it to a boil and as soon it gets boiling, cover it with your lid, set heat to the lowest as possible and DO NOT TOUCH IT FOR 12 MINUTES!
+#SET A TIMER
+#After 12 minute, lift the lid, kill the heat and "bruush" your rice softly with a fork, you must see how well separated and flufy is, GOOD STUFF! 
+
+#pro tip 2:
+#DO NOT eat rice after 5 days of making it, you miught kill most of the bacteria by reheating it to safe temp zone, but toxins might be present. DON'T RISK IT!.
